@@ -36,8 +36,6 @@ How It Works:
 Contribution:
 Contributions are welcome! Feel free to fork the repository, create issues, or submit pull requests.
 
-# Disclaimer 1
-This project is for educational purposes and intended to enhance the gaming experience by mitigating security risks. It does not endorse any form of cheating or exploitation.
 
 ( RU ) 
 Этот проект обеспечивает систему защиты сети от эксплойтов удаленного выполнения кода (RCE) в Call of Duty: Modern Warfare 3 (2011). Он фокусируется на мониторинге сетевого трафика, блокировании вредоносных пакетов и обеспечении целостности игры путем предотвращения несанкционированных действий, таких как принудительная активация или отключение микрофона.
@@ -80,11 +78,10 @@ pip установить psutil pydivert
 Вклад:
 Вклады приветствуются! Не стесняйтесь создавать форки репозитория, создавать задачи или отправлять запросы на включение.
 
-# Отказ от ответственности 1
-Этот проект предназначен для образовательных целей и призван улучшить игровой процесс за счет снижения рисков безопасности. Он не поддерживает какие-либо формы мошенничества или эксплуатации.
 
-
-
+# Disclaimer 1
+(EU) - This project is for educational purposes and intended to enhance the gaming experience by mitigating security risks. It does not endorse any form of cheating or exploitation.
+(RU) - Этот проект предназначен для образовательных целей и призван улучшить игровой процесс за счет снижения рисков безопасности. Он не поддерживает какие-либо формы мошенничества или эксплуатации.
 
 <h1>Disclaimer 2</h1>
 <p>Last updated: December 04, 2024</p>
