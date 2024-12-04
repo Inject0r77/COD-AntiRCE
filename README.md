@@ -1,6 +1,46 @@
-# COD-AntiRCE
+# RCE Protection for Call of Duty: Modern Warfare 3 (2011)
+This project provides a network protection system against Remote Code Execution (RCE) exploits in Call of Duty: Modern Warfare 3 (2011). It focuses on monitoring network traffic, blocking malicious packets, and ensuring game integrity by preventing unauthorized actions such as forced microphone activation or disabling.
 
-<h1>Disclaimer</h1>
+Features
+- RCE Exploit Protection: Intercepts and analyzes network traffic for known malicious payloads.
+- Mic Command Filtering: Detects and blocks packets attempting to control the in-game microphone (force mic on/off).
+- Game Process Monitoring: Ensures the game is running and monitors its associated network traffic.
+- Logging System: Detailed logs for actions performed, including blocked packets and errors.
+
+Installation and Usage:
+Prerequisites
+- Python Version: Ensure Python 3.10 or higher is installed.
+- Dependencies: Install the required Python libraries:
+pip install psutil pydivert
+
+- Windows Platform: This project requires a Windows environment due to WinDivert.
+
+Running the Protection System:
+- Launch the main script: python main.py
+ 
+The application will:
+- Check if the game process is running.
+- Intercept and analyze network traffic.
+- Log all actions and block malicious packets as configured.
+
+How It Works:
+1. Game Process Check: The system verifies the game process is running before starting the network monitor.
+2. Packet Interception: Using WinDivert, it captures and inspects packets matching the configured filter.
+3. Malicious Payload Detection: The system scans packet payloads for harmful commands, including:
+ -Exploit commands
+ -Forced mic activation/deactivation
+4. Packet Blocking: Detected malicious packets are dropped to prevent exploitation.
+
+Contribution:
+Contributions are welcome! Feel free to fork the repository, create issues, or submit pull requests.
+
+# Disclaimer 1
+This project is for educational purposes and intended to enhance the gaming experience by mitigating security risks. It does not endorse any form of cheating or exploitation.
+
+
+
+
+<h1>Disclaimer 2</h1>
 <p>Last updated: December 04, 2024</p>
 <h2>Interpretation and Definitions</h2>
 <h3>Interpretation</h3>
