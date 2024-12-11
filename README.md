@@ -1,5 +1,6 @@
 # RCE Protection for Call of Duty: Modern Warfare 3 (2011)
 
+p.s - player info not work. I'll fix it with new patches.
 # ( EU )
 This project provides a network protection system against Remote Code Execution (RCE) exploits in Call of Duty: Modern Warfare 3 (2011). It focuses on monitoring network traffic, blocking malicious packets, and ensuring game integrity by preventing unauthorized actions such as forced microphone activation or disabling.
 
